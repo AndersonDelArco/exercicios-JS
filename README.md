@@ -1,1 +1,2 @@
 # exercicios-JS
+Primiera alteração
