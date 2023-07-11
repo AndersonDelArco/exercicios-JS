@@ -162,3 +162,21 @@ var idade = 54; // variável tipo número
         }while (exit=condition)
 
 
+    /* AULA JS FUNÇÕES */
+
+    FUNÇÕES - Uma função é um pedaço de código que faz alguma tarefa específica e pode ser chamado de qualquer parte do programa quantas vezes for necessário.
+
+    DECLARANDO UMA FUNÇÃO
+        1 - Nome da função
+        2 - Lista de argumentos para a função, entre parênteses e separados por vírgulas.
+        3 - Declarações JavaScript que definem a função, entre chaves{}
+        4 - Retorno de uma função
+    
+    EXEMPLO
+        function square(numero) {
+            return numero * numero;
+        }
+
+        Chamando a função:
+        square(5);
+

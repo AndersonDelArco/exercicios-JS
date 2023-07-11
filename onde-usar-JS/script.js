@@ -114,22 +114,38 @@ function showResult(){
 
 /* AULA JS ESTRUTURAS DE CONTROLE */
 
-function countNumbers(){
+// function countNumbers(){
 
     /*for(i=0;i<=100;i++){
 
         console.log(i);
     }*/ //No exemplo acima foi utilizado o comando for. Está comentado para poder fazer o exmplo abaixo que é o comando While.
 
-    var i = 0;
+    /*var i = 0;
 
     while(i<=100){
 
 
         console.log(i);
         i++;
+    }*/ // acima um exemplo utilizando o while e abaixo o mesmo comando utiliznado a aula seguinte (JS Funções)
+
+    function countNumbers(numeroMax){
+
+    var i = 0;
+
+    while(i<=numeroMax){
+
+
+        console.log(i);
+        i++;
     }
 }
+
+
+/* AULA JS FUNÇÕES */
+
+    // utilizado a funcão da aula acima para
     
 
 
