@@ -92,5 +92,38 @@ var idade = 54; // variável tipo número
     Criando uma classe e um objeto no js
         var obj = {};
 
-    
+
+/* AULA JS ESTRUTURA CONDICIONAIS */
+
+    Declaração IF... ELSE - Sintaxe
+        IF (condição){
+            Código para executar caso a condição seja verdadeira
+        } ELSE{
+            se não, execultar este código
+        }
+
+    Declaração IF... ELSE IF... ELSE - Sintaxe
+        IF (condição 1){
+            código para executar caso a condição seja verdadeira
+        } ELSE IF (condição 2){
+            se não, executar este código
+        } ELSE{
+
+        }
+
+    Switch
+        SWITCH (expressão){
+            Case opção1:
+                //Executar este código
+                BREAK;
+
+            Case opção2:
+                //Executar este código
+                BREAK;
+
+                //Adicione quantos cases precisar.
+
+            DEFAUT:
+                Actually, just run this code
+        }
 
