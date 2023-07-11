@@ -34,7 +34,45 @@ const code = 'TRUSTED';
 let nome = 'Anderson'; // let é uma forma de criar uma variável sem o risco de criar uma variável já existente.
 
 
+/* AULA JS TIPOS DE DADOS */
+
+var nomeCompleto = 'Anderson Del Arco'; // variável tipo string
+var idade = 54; // variável tipo número
+
+// Typeof é utilizado para ver o tipo de variável que foi utilizado. É importante para verificar antes de fazer determinada ação, uma vez que o JavaScript é um tipo de programação não tipada.
 
 
+/* AULA JS OPERADORES */
+
+/*  Operadores Aritiméticos: + - * / % ++ --
+        + = Adição
+        - = Subtração
+        * = Multiplicação
+        / = Divisão
+        % = Resto da divisão
+        ++ = Acresce valor
+        -- = Decresce valor
+
+    Operadores Atribuição: = += -= *= /= %=
+        = = Atribuição
+        += = Atribuição de Soma (X+=Y) é o mesmo que (x=x+y)
+        -= = Atribuição de subtração (X-=Y) é o mesmo que (x=x-y)
+        *= = Atribuição de multiplicação (X*=Y) é o mesmo que (x=x*y)
+        /= = Atribuição de divisão (X/=Y) é o mesmo que (x=x/y)
+        %= = Atribuição de resto (X%=Y) é o mesmo que (x=x%y)
 
 
+    Operadores de Comparação: == === != > >= < <=
+        ==  = igua a
+        === = igual a (tanto valor quanto tipo do objeto)
+        !=  = diferente de
+        >   = Maior que
+        >=  = Maior ou igual a
+        <   = Menor que
+        <=  = Menor ou igual a
+
+    Operadores Lógicos: && || !
+        && = e
+        || = ou
+        !  = Negação, contrário a
+*/
