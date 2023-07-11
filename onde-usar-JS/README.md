@@ -127,3 +127,38 @@ var idade = 54; // variável tipo número
                 Actually, just run this code
         }
 
+
+/* AULA JS ESTRUTURAS DE CONTROLE */
+
+    As linguagens de programação são muito úteis para concluir rapidamente tarefas repetitivas, desde vários cálculos básicos até praticamente qualquer outra situação em que você tenha muitos intens semelhantes para manipular. Aqui veremos as estruturas de loop disponíveis no JavaScript que ajudam com essas necessidades.
+
+    Um loop geralmente possui um ou mias dos seguintes itens:
+
+        1 - O CONTADOR, que é inicializado com um certo valor - este é o ponto inicial do loop;
+
+        2 - A CONDIÇÃO DE SAÍDA, que é o critério no qual o loop para - geralmente o contador atinge um certo valor;
+
+        3 - Um INTERADOR, que geralmente incrementa o contador em uma pequena quantidade a cada loop, sucessivamente, até atingir a condição de saída.
+
+    Tipos de loop:
+
+        LOOP FOR
+        for(inicializador;condição-saída;expressão-final){
+            //código para execultar
+        }
+
+        LOOP WHILE
+        while(exit-condition){
+            //code to run
+
+            final-expression
+        }
+
+        LOOP DO WHILE
+        do{
+            //code to run
+
+            final-expression
+        }while (exit=condition)
+
+
