@@ -39,3 +39,24 @@ let nome = 'Anderson'; // let é uma forma de criar uma variável sem o risco de
 var nomeCompleto = 'Anderson Del Arco'; // variável tipo string
 var idade = 54; // variável tipo número
 
+
+/* AULA JS CLASSES E OBJETOS */
+
+var pessoa = {nome: 'Anderson',idade: 54};
+
+class Pessoa {
+    constructor(nome,idade,endereco){
+        this.nome = nome;
+        this.idade = idade;
+        this.endereco = endereco;
+    }
+
+    andar(){
+        console.log('A pessoa' + this.nome + 'está andando...');
+    }
+}
+
+var pessoa1 = new Pessoa('Anderson',54,'Rua Marechal Deodoro');
+
+
+

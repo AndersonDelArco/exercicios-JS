@@ -46,7 +46,7 @@ var idade = 54; // variável tipo número
 
 /* AULA JS OPERADORES */
 
-/*  Operadores Aritiméticos: + - * / % ++ --
+    Operadores Aritiméticos: + - * / % ++ --
         + = Adição
         - = Subtração
         * = Multiplicação
@@ -77,6 +77,20 @@ var idade = 54; // variável tipo número
         && = e
         || = ou
         !  = Negação, contrário a
-*/
+
 
 /* AULA JS CLASSES E OBJETOS */
+
+    Objetos - Objeto é definido neste modelo como conceito, abstração ou coisa com limites e significados bem definidos para a aplicação em questão. Objetos tem dois propósitos:
+    1 - Promover o entendimento do mundo real.
+    2 - Suportar uma base prática para uma implementação computacional.
+
+    Classe (Molde para criação de objeto)
+    A classe é a definição de uma estrutura de objetos.
+    Podem ser definidos atributos e funçoes para o objeto.
+
+    Criando uma classe e um objeto no js
+        var obj = {};
+
+    
+
