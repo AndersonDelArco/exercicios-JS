@@ -2,11 +2,12 @@
 
     * {
         font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
     }
 
     h1 {
         text-align: center;   
-        color: rgb(14, 14, 14);
+        color: rgb(252, 252, 252);
         font-size: 3em;
     
     }
@@ -22,18 +23,17 @@
         border-radius: 25px;
         font-size: 1.2em;
         text-align: center;
-        margin-bottom: 10px;        
-        padding: 5px;
+        margin-bottom: 25px;        
+        padding: 5px; 
         width: 250px;
-        height: 50px;
+        height: 50px;       
     }
 
     button {
         text-align: center;
         margin-bottom: 10px;        
         padding: 2px;
-        width: 250px;
-        height: 50px;
+        
     }
 
     #soma {
@@ -41,6 +41,8 @@
         color: white;
         font-size: 1.5em;
         border-radius: 25px;
+        width: 50px;
+        height: 50px;
     }
 
     #subtrai {
@@ -48,6 +50,8 @@
         color: white;
         font-size: 1.5em;
         border-radius: 25px;
+        width: 50px;
+        height: 50px;
     }
 
     #multiplica {
@@ -55,6 +59,8 @@
         color: white;
         font-size: 1.5em;
         border-radius: 25px;
+        width: 50px;
+        height: 50px;
     }
 
     #divide {
@@ -62,8 +68,16 @@
         color: white;
         font-size: 1.5em;
         border-radius: 25px;
+        width: 50px;
+        height: 50px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 3em;
     }
 
     #result {
-        font-size: 2em;        
+        font-size: 2em;
+        color: white;        
     }
